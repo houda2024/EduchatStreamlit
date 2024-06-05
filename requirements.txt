@@ -1,0 +1,6 @@
+streamlit==0.86.0
+langchain==0.1.0  # Assuming 'langchain' is the correct package name
+langchain-core==0.1.0  # Assuming 'langchain-core' is the correct package name
+langchain-groq==0.1.0  # Assuming 'langchain-groq' is the correct package name
+torch==1.10.0  # Assuming you're using PyTorch
+transformers==4.12.0  # Assuming you're using Hugging Face Transformers
