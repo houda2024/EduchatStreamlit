@@ -55,9 +55,10 @@ def main():
             memory.save_context({'input': message['human']}, {'output': message['AI']})
 
     groq_chat = ChatGroq(
-        groq_api_key=os.environ.get("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"),
-        model_name='llama3-8b-8192'
-    )
+    groq_api_key="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",
+    model_name='llama3-8b-8192'
+)
+
 
     if user_question:
         # Determine the type of prompt to use based on the user question
