@@ -1,0 +1,1 @@
+#$env:GROQ_API_KEY = "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"
